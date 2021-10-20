@@ -1,13 +1,13 @@
-## ½É³úÇ÷°üÁúÈ¯ ÄÉ¾î ¾îÇÃ¸®ÄÉÀÌ¼Ç 
+## ì‹¬ë‡Œí˜ˆê´€ì§ˆí™˜ ì¼€ì–´ ì–´í”Œë¦¬ì¼€ì´ì…˜ 
 
 1. homeTest : 
- - FirebaseÀÇ Real-Time Database¸¦ ÂüÁ¶ÇÑ ÄÚµå
- - ¸ÞÀÎ È­¸é ±¸¼º ½Ã µ¥ÀÌÅÍ ÂüÁ¶ Å×½ºÆ® ·ÎÁ÷À» ±¸ÇöÇÏ±â À§ÇÑ ÄÚµå
+ - Firebaseì˜ Real-Time Databaseë¥¼ ì°¸ì¡°í•œ ì½”ë“œ
+ - ë©”ì¸ í™”ë©´ êµ¬ì„± ì‹œ ë°ì´í„° ì°¸ì¡° í…ŒìŠ¤íŠ¸ ë¡œì§ì„ êµ¬í˜„í•˜ê¸° ìœ„í•œ ì½”ë“œ
 
 2. localserver : 
- - ½ºÇÁ¸µ ÇÁ·¹ÀÓ¿öÅ© (4.3.3) / Java 8À» »ç¿ëÇÑ Spring ¹é¿£µå
- - Spring MVC¸¦ »ç¿ëÇÏ¿© 3°èÃþÀ¸·Î ³ª´«µÚ MongoTemplateÀ» Àû¿ëÇÏ¿© MongoDB Atlas¿¡ ¾×¼¼½º°¡ °¡´ÉÇÑ ÄÚµå
+ - ìŠ¤í”„ë§ í”„ë ˆìž„ì›Œí¬ (4.3.3) / Java 8ì„ ì‚¬ìš©í•œ Spring ë°±ì—”ë“œ
+ - Spring MVCë¥¼ ì‚¬ìš©í•˜ì—¬ 3ê³„ì¸µìœ¼ë¡œ ë‚˜ëˆˆë’¤ MongoTemplateì„ ì ìš©í•˜ì—¬ MongoDB Atlasì— ì•¡ì„¸ìŠ¤ê°€ ê°€ëŠ¥í•œ ì½”ë“œ
 
 3. testFragement : 
- - Å¬¶óÀÌ¾ðÆ®(Android) / Java¸¦ »ç¿ëÇØ È­¸éÀ» ±¸¼ºÇÑ ÄÚµå
- - Áöµµ, ¸ÞÀÎ È­¸éÀ» ´ã´çÇÏ¿© Áöµµ¿Í ¸ÞÀÎ È­¸éÀ» ±¸¼ºÇÏ´Â ÄÚµå
+ - í´ë¼ì´ì–¸íŠ¸(Android) / Javaë¥¼ ì‚¬ìš©í•´ í™”ë©´ì„ êµ¬ì„±í•œ ì½”ë“œ
+ - ì§€ë„, ë©”ì¸ í™”ë©´ë§Œì„ ë‹´ë‹¹ ë° êµ¬í˜„ ì½”ë“œ

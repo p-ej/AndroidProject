@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ttTest"
+        android:icon="@drawable/ic_baseline_airline_seat_flat_24"
+        android:enabled="true"
+        android:title="test1"/>
+
+    <item
+        android:id="@+id/ttHome"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home" />
+
+    <item
+        android:id="@+id/ttTest2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_airline_seat_flat_angled_24"
+        android:title="test2" />
+</menu>

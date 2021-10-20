@@ -1,0 +1,5 @@
+package com.forheart.ForHeart.DAO;
+
+public interface AndroidDao {
+
+}

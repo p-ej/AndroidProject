@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555507505956",
+    "project_id": "foodtest-2ae35",
+    "storage_bucket": "foodtest-2ae35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555507505956:android:b8f44d94eb02de815ff1b1",
+        "android_client_info": {
+          "package_name": "com.test.hometest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555507505956-7ih3r02p9f9lhab2rlds23bv2ij0b370.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmwoXud2hz8M0cmBOswGuf5wpQlSGJ2rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555507505956-7ih3r02p9f9lhab2rlds23bv2ij0b370.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">testFragement</string>
+    <string name="news_text">건강뉴스</string>
+    <string name="map_text">지도</string>
+    <string name="home_text">홈</string>
+    <string name="record_text">기록</string>
+    <string name="info_text">내정보</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

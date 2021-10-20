@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tnews"
+        android:icon="@drawable/menu_news_selector"
+
+        android:title="@string/news_text"/>
+
+    <item
+        android:id="@+id/tmap"
+        android:enabled="true"
+        android:icon="@drawable/menu_map_selector"
+        android:title="@string/map_text" />
+
+    <item
+        android:id="@+id/thome"
+        android:enabled="true"
+        android:icon="@drawable/menu_home_selector"
+        android:title="@string/home_text" />
+
+    <item
+        android:id="@+id/trecord"
+        android:enabled="true"
+        android:icon="@drawable/menu_record_selector"
+        android:title="@string/record_text" />
+
+    <item
+        android:id="@+id/tinfo"
+        android:enabled="true"
+        android:icon="@drawable/menu_info_selector"
+        android:title="@string/info_text" />
+</menu>

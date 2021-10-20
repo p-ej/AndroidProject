@@ -1,0 +1,35 @@
+package com.forheart.ForHeart.Service;
+
+import java.util.List;
+
+import com.forheart.ForHeart.DTO.LocationTest;
+import com.forheart.ForHeart.DTO.MapsDTO;
+import com.forheart.ForHeart.DTO.TestDTO;
+
+public class AndroidServiceImpl implements AndroidService{
+
+	@Override
+	public TestDTO insertTest(String test) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public TestDTO getTest(String test) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public LocationTest selectTest(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<MapsDTO> findAll(String kind) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

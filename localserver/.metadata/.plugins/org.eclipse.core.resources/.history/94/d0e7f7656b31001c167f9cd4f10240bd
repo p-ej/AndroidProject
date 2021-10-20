@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans
+	xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.8.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing 
+		infrastructure -->
+
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving 
+		up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources 
+		in the /WEB-INF/views directory -->
+	<beans:bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+
+	<context:component-scan
+		base-package="com.forheart.ForHeart" />
+
+	<!-- use mongodb altas server -->
+	<mongo:mongo-client
+		replica-set="cluster0-shard-00-02.orljw.mongodb.net:27017,cluster0-shard-00-01.orljw.mongodb.net:27017,cluster0-shard-00-00.orljw.mongodb.net:27017"
+		credentials="forheart:forheart2021@admin">
+		<mongo:client-options connections-per-host="8"
+			threads-allowed-to-block-for-connection-multiplier="4"
+			connect-timeout="10000" max-wait-time="15000"
+			socket-keep-alive="true" ssl="true" socket-timeout="15000" />
+	</mongo:mongo-client>
+	
+	
+	<beans:bean id="mongoTemplate"
+		class="org.springframework.data.mongodb.core.MongoTemplate">
+		<beans:constructor-arg ref="mongo" />
+		<beans:constructor-arg name="databaseName"
+			value="forHeart"></beans:constructor-arg>
+	</beans:bean>
+
+	<!-- use local mongodb server -->
+	<!-- <mongo:db-factory id="mongoDbFactory" host="localhost" port="27017" 
+		dbname="forheart" /> -->
+
+
+	<!-- <beans:bean id="mongoTemplate"
+		class="org.springframework.data.mongodb.core.MongoTemplate">
+		<beans:constructor-arg name="mongoDbFactory"
+			ref="mongoDbFactory" />
+	</beans:bean> -->
+
+	<beans:bean id="AndroidDao"
+		class="com.forheart.ForHeart.DAO.AndroidDaoImpl" />
+
+</beans:beans>

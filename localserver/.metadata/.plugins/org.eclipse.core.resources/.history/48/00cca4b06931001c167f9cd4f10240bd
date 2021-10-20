@@ -1,0 +1,5 @@
+package com.forheart.ForHeart.Service;
+
+public interface AndroidService {
+
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:fontFamily="@font/notosanscjkkrbold"
+            android:textColor="@color/black"
+            android:text="심뇌혈관질환 예방관리 9대 생활수칙"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            app:ci_drawable="@drawable/shape"
+            app:ci_height="7dp"
+            app:ci_margin="4dp"
+            app:ci_width="7dp"/>
+    </LinearLayout>
+
+
+    <org.eazegraph.lib.charts.BarChart
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:padding="10dp"
+        app:egFixedBarWidth="true"
+        app:egBarWidth="20dp"
+        app:egLegendHeight="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/notosanscjkkrbold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="해당 질환에 좋은 음식들"
+            android:fontFamily="@font/notosanscjkkrbold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+            android:id="@+id/textview"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_background"
+            android:fontFamily="@font/notosanscjkkrbold"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

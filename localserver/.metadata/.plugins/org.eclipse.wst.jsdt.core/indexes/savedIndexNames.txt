@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\lootserver\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1970964428.index
+4048052065.index
+3777225714.index
+3246843551.index
+2082268435.index
+979545332.index

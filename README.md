@@ -14,7 +14,7 @@
  - HTTPClient와 AsyncTask 객체를 사용하여 Spring 백엔드와의 통신
  
  
-* 구현된 코드 
+# 구현된 코드 
  - DTO : MapsDTO, MyItem
  - Http : HTTPClient
  - MarkerImage : MarkerClusterRenderer

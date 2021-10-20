@@ -1,3 +1,0 @@
-127.0.0.1 - - [10/Jul/2021:20:35:56 +0900] "GET / HTTP/1.1" 404 807
-0:0:0:0:0:0:0:1 - - [10/Jul/2021:20:35:57 +0900] "GET /ForHeart/WEB-INF/classes/com/forheart/ForHeart/Controller/AndroidController.java HTTP/1.1" 404 721
-192.168.35.201 - - [10/Jul/2021:20:36:14 +0900] "POST /ForHeart/ForHeartTest HTTP/1.1" 200 42551

@@ -1,9 +1,0 @@
-package com.forheart.ForHeart.DAO;
-
-import java.util.List;
-
-import com.forheart.ForHeart.DTO.MapsDTO;
-
-public interface AndroidDao {
-	public List<MapsDTO> findAll(String kind);
-}

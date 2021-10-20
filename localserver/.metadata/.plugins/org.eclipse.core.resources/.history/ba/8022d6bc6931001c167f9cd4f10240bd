@@ -1,5 +1,0 @@
-package com.forheart.ForHeart.Service;
-
-public class AndroidServiceImpl implements AndroidService{
-
-}

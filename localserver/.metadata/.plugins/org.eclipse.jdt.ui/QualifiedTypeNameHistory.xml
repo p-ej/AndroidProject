@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.query.Query"/>
-    <fullyQualifiedTypeName name="com.forheart.ForHeart.DTO.LocationTest"/>
-    <fullyQualifiedTypeName name="com.mongodb.DBCursor"/>
-    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
-    <fullyQualifiedTypeName name="com.forheart.ForHeart.DTO.ObjDTO"/>
-    <fullyQualifiedTypeName name="com.forheart.ForHeart.DTO.MapsDTO"/>
-</qualifiedTypeNameHistroy>

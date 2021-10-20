@@ -10,4 +10,16 @@
 
 3. testFragement : 
  - 클라이언트(Android) / Java를 사용해 화면을 구성한 코드
- - 지도, 메인 화면만을 담당 및 구현 코드
+ - 지도, 메인 화면만을 담당 및 구현 코드 (MainActivity, MapFragement, HomeFragment)
+ - HTTPClient와 AsyncTask 객체를 사용하여 Spring 백엔드와의 통신
+ 
+ 
+* 구현된 코드 
+ - DTO : MapsDTO, MyItem
+ - Http : HTTPClient
+ - MarkerImage : MarkerClusterRenderer
+ - Task : TestTask
+ - EventDialogFragment : 랜덤 텍스트 클릭 시 발생하는 다이얼로그 
+ - HomeFragment : 메인 화면을 구성하는 코드
+ - MapFragment : 지도 화면을 구성하는 코드
+ - MainActivity : 바텀네비게이션을 적용한 코드 
